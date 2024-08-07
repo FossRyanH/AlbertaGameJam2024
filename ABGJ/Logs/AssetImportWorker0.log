@@ -1010,3 +1010,380 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.399 seconds
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.945 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (945ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (431ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (217.6 KB). Loaded Objects now: 4936.
+Memory consumption went from 159.6 MB to 159.4 MB.
+Total: 6.247700 ms (FindLiveObjects: 0.355100 ms CreateObjectMapping: 0.320800 ms MarkObjects: 5.329700 ms  DeleteObjects: 0.241300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8624.827882 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Aseprite/UI_Animation_Flat.aseprite
+  artifactKey: Guid(e403f8bfec466bc49854e0ebde23574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Aseprite/UI_Animation_Flat.aseprite using Guid(e403f8bfec466bc49854e0ebde23574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd663261bb8b2824bd6ad51160fd36d') in 0.211324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 133
+========================================================================
+Received Import Request.
+  Time since last request: 71.064880 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_01_Downward.png
+  artifactKey: Guid(e09271f1650acae42810737859bcae5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_01_Downward.png using Guid(e09271f1650acae42810737859bcae5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1030e944773ed6fb67d36b3d5d871e5') in 0.006505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010449 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_01_Upward.png
+  artifactKey: Guid(9775d0a4c8de3c246adb97c0ccdbeb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_01_Upward.png using Guid(9775d0a4c8de3c246adb97c0ccdbeb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a3c3b1ba8ffc8bc6436baf97ecab90') in 0.007438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a2.png
+  artifactKey: Guid(2e5502ea1998e0344b927d712c3b1097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a2.png using Guid(2e5502ea1998e0344b927d712c3b1097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212b2a7749e18d37e2621eb81407b115') in 0.006641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_02_Upward.png
+  artifactKey: Guid(74fbd763faaa2a749bc98e33b810f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_02_Upward.png using Guid(74fbd763faaa2a749bc98e33b810f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a961c8b0918487b830c23474a8c3119') in 0.007112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009142 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a4.png
+  artifactKey: Guid(f6b0f87bfcfcdaa4aab759d52fefb0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a4.png using Guid(f6b0f87bfcfcdaa4aab759d52fefb0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9c08c53704c74ce51d261a63180b03') in 0.012350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_02a3.png
+  artifactKey: Guid(28a31ddea07ef2c4a877ac7dd6563323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_02a3.png using Guid(28a31ddea07ef2c4a877ac7dd6563323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb5771e85cc2b8547b393e54c73dbb7') in 0.010447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a4.png
+  artifactKey: Guid(97e264e70625c2241ad177e8b9ee6029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a4.png using Guid(97e264e70625c2241ad177e8b9ee6029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b31212f7d4e2197c27323c25b28712c') in 0.013398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a3.png
+  artifactKey: Guid(7d3fc500e3107f54189590ad6b53be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a3.png using Guid(7d3fc500e3107f54189590ad6b53be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606937cbc2f1e0c551282253bd00e6f1') in 0.007441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_01a3.png
+  artifactKey: Guid(dc19559b5b820c74dbada3825a284716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_01a3.png using Guid(dc19559b5b820c74dbada3825a284716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d3ee82665b7952236a07bc8073fa4f') in 0.009116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a2.png
+  artifactKey: Guid(0c3d59dc66009834d9f6a8d1219aae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a2.png using Guid(0c3d59dc66009834d9f6a8d1219aae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d59075035062f9fe7253acb69697b36') in 0.009118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_02a3.png
+  artifactKey: Guid(a0184eb9de6a5cd4580831980372e990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_02a3.png using Guid(a0184eb9de6a5cd4580831980372e990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86e2bea31239d4be9daf361e61a701d') in 0.008346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a2.png
+  artifactKey: Guid(7b3ddbbcdc98a8b4ab96b13ffd57341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a2.png using Guid(7b3ddbbcdc98a8b4ab96b13ffd57341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8229c4080380abdaf1d758d94558b18f') in 0.007472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_02a2.png
+  artifactKey: Guid(5aa439a077281d449bb10b316aafd49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_02a2.png using Guid(5aa439a077281d449bb10b316aafd49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7ff42b65fc8763f3da3f47bc77f985') in 0.008321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Release_01a2.png
+  artifactKey: Guid(4999ac759d52ddc4aa41d19b2685189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Release_01a2.png using Guid(4999ac759d52ddc4aa41d19b2685189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f95bbac38956142dd342ae6bcbe4533') in 0.007469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Release_02a4.png
+  artifactKey: Guid(546906e12afb8664ebd81140c4619e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Release_02a4.png using Guid(546906e12afb8664ebd81140c4619e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4b53a03e2bd2f45625f0846d6d96a5') in 0.013075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_01a4.png
+  artifactKey: Guid(0f93682091a99a643a4f15b281bb1e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_01a4.png using Guid(0f93682091a99a643a4f15b281bb1e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8c727f28e63ec5094ac901418151ab') in 0.006533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Press_01a4.png
+  artifactKey: Guid(96a04746c2f7e4148a19b48ba5a10f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Press_01a4.png using Guid(96a04746c2f7e4148a19b48ba5a10f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19c06380fb54e7a6e85be083386fcb4') in 0.010968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a3.png
+  artifactKey: Guid(ef6d47d6c9d9cc44e833bab25ee294e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a3.png using Guid(ef6d47d6c9d9cc44e833bab25ee294e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d269fba29334e62420d923265ccfda2') in 0.008720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_02a4.png
+  artifactKey: Guid(ab9dd55aa7a75714fab8a0c61f062f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_02a4.png using Guid(ab9dd55aa7a75714fab8a0c61f062f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2854d09afcb2124b09a043b3d474c5e') in 0.009209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Press_01a1.png
+  artifactKey: Guid(bd0018ea36620c94e9deb2e4a701edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Press_01a1.png using Guid(bd0018ea36620c94e9deb2e4a701edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad1294259704b845cf6c15cce7e7dc6') in 0.009090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_01a2.png
+  artifactKey: Guid(f216dbf2d4a75d44e93d0557de33a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_01a2.png using Guid(f216dbf2d4a75d44e93d0557de33a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a8a00014cf0b547ded381820e8c510') in 0.008877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a1.png
+  artifactKey: Guid(43ea2dd228f942f4bb7fe8f367809464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a1.png using Guid(43ea2dd228f942f4bb7fe8f367809464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e961985e7ed16b7738ac330ccb9cf1') in 0.010712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a4.png
+  artifactKey: Guid(d7a08480bbb977e458710a8be712a230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a4.png using Guid(d7a08480bbb977e458710a8be712a230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d02e0f588d5bb221269b74ddf23acfe') in 0.006412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_02a1.png
+  artifactKey: Guid(99d08bdc9d1d6ee40b925081d9176619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_02a1.png using Guid(99d08bdc9d1d6ee40b925081d9176619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3d69f6fdd395bd94e09624ee1560c0') in 0.009272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_01a3.png
+  artifactKey: Guid(2f5bbfec28d538149870bb70eb0065b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_01a3.png using Guid(2f5bbfec28d538149870bb70eb0065b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862f059f6eecd6732308738574247b6b') in 0.008059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_01a2.png
+  artifactKey: Guid(b39f4699da1cb054dbb89c7fb687db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_01a2.png using Guid(b39f4699da1cb054dbb89c7fb687db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189cc8d9e66251ff3d15d4bcec075210') in 0.009017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Press_01a2.png
+  artifactKey: Guid(5e138448967c6aa4799aab91b0edaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Press_01a2.png using Guid(5e138448967c6aa4799aab91b0edaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad2f1896b1a4b1c12a9cf99cf91510d') in 0.010485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Selected.png
+  artifactKey: Guid(4472dbea660853a4bb50ed91f48b0ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Selected.png using Guid(4472dbea660853a4bb50ed91f48b0ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b656315bb42874399e2da432eb1972cd') in 0.008554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Unavailable.png
+  artifactKey: Guid(e2c2e3c76f9e6e741806c4d2ff5cc4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Unavailable.png using Guid(e2c2e3c76f9e6e741806c4d2ff5cc4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c62099b5f7851144a049bed548af97') in 0.006756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Checkmark_Large.png
+  artifactKey: Guid(e21628f7b511d2041bc68dc5fbb571e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Checkmark_Large.png using Guid(e21628f7b511d2041bc68dc5fbb571e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe6ca3c05299c82788a19b30ecf0bf2') in 0.007688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a2.png
+  artifactKey: Guid(14f06eae98d42434587f0f2ba0abe265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a2.png using Guid(14f06eae98d42434587f0f2ba0abe265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b998152624c966aab1f506214ca08107') in 0.010354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a1.png
+  artifactKey: Guid(053469e54c2ed7f40a45998d304af4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a1.png using Guid(053469e54c2ed7f40a45998d304af4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105ea541cda4822b95b7681cfd4d33d4') in 0.006898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_02a2.png
+  artifactKey: Guid(27290d556cf161f4fb89013cf5e02edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_02a2.png using Guid(27290d556cf161f4fb89013cf5e02edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255fb2b26495ded8aa4e83edf8959e33') in 0.007220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_02a2.png
+  artifactKey: Guid(02474261d241aa24daa39c9d71981431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_02a2.png using Guid(02474261d241aa24daa39c9d71981431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba79b70dc86158af92c800aaae5bf4') in 0.011620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a3.png
+  artifactKey: Guid(2f1e829d7e19b9541b77a596aeba098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a3.png using Guid(2f1e829d7e19b9541b77a596aeba098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3533c0f0bff3aa29bfed6346abab5b0f') in 0.008435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_02_Downward.png
+  artifactKey: Guid(16083253408e93448be7a0c3b462bc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_02_Downward.png using Guid(16083253408e93448be7a0c3b462bc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cb9aeb53aa51f16bf394a65be26698') in 0.011133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_02a1.png
+  artifactKey: Guid(917dd4f6c676dd04c88051743d45803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_02a1.png using Guid(917dd4f6c676dd04c88051743d45803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f03ea0a94a1fc9083f1d1b1bab59ce') in 0.007261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
