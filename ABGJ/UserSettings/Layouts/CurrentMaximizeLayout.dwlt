@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 60130
+  controlID: 37248
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,7 +91,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -104,18 +104,18 @@ MonoBehaviour:
       y: 21
       width: 1207
       height: 456
-    m_Scale: {x: 0.43488887, y: 0.43488887}
-    m_Translation: {x: 603.5, y: 234.84}
+    m_Scale: {x: 0.42222223, y: 0.42222223}
+    m_Translation: {x: 603.5, y: 228}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1387.7108
+      x: -1429.342
       y: -540
-      width: 2775.4216
-      height: 1048.5437
+      width: 2858.684
+      height: 1080
     m_MinimalGUI: 1
   m_defaultScale: 0.42222223
   m_LastWindowPixelSize: {x: 1207, y: 477}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 60006
+  controlID: 37146
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -584,9 +584,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 934.36633, y: 370.91165, z: -4.4574666}
+    m_Target: {x: -2.65, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 934.36633, y: 370.91165, z: -4.4574666}
+    m_Value: {x: -2.65, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -636,9 +636,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 534.13245
+    m_Target: 0.5678908
     speed: 2
-    m_Value: 534.13245
+    m_Value: 0.5678908
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 60071
+  controlID: 37199
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -884,7 +884,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7a03ffff7c03ffff8403ffff3627ffff1c2bffff9a2fffffca5fffff8edcffffa8dcffffbcdcffff3ae4ffff70e5ffff3eeaffff32ebffff76ebffff12fbffff
+      m_ExpandedIDs: 9899ffffa09affff00b4fffffeb4ffff08b5ffff7afaffff8cfaffff96faffffd8faffffe4faffffeefafffff8faffff12fbffff7064000086640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -979,7 +979,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites
+    - Assets/Scripts/SciptableObjects
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -987,16 +987,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites
+  - Assets/Scripts/SciptableObjects
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Repos\AlbertaGameJam2024\ABGJ
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26650000
-    m_LastClickedID: 25894
-    m_ExpandedIDs: 00000000966400000a6500000e65000012650000166500001a65000000ca9a3b
+    m_SelectedIDs: 28660000
+    m_LastClickedID: 26152
+    m_ExpandedIDs: 00000000006600001a66000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009664000000ca9a3b
+    m_ExpandedIDs: 000000000066000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1049,10 +1049,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5c0affff
-    m_LastClickedInstanceID: -62884
+    m_SelectedInstanceIDs: e04dffff
+    m_LastClickedInstanceID: -45600
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000040610000e26000000a610000c05f0000f2600000285f0000d2610000c26000007261000086610000da610000b85f0000605e0000405e0000f2990000289a0000f89900001c9a0000229a0000109a0000905e00009a5e0000665e0000845e0000646d0000006f0000
+    m_ExpandedInstanceIDs: c623000040610000e26000000a610000c05f0000f2600000285f0000d2610000c26000007261000086610000da610000b85f0000605e0000405e0000f2990000289a0000f89900001c9a0000229a0000109a0000905e00009a5e0000665e0000845e0000646d0000006f000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1076,7 +1076,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 1686}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 124
@@ -1147,8 +1147,8 @@ MonoBehaviour:
     m_CachedPref: 151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -62884
-  m_LastVerticalScrollValue: 262
+  m_LastInspectedObjectInstanceID: -45600
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

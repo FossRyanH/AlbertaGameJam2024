@@ -18,14 +18,4 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         
     }
-
-    public void ShowInventory()
-    {
-        gameObject.SetActive(true);
-    }
-
-    public void HideInventory()
-    {
-        gameObject.SetActive(false);
-    }
 }
