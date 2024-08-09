@@ -15,7 +15,7 @@ D:/Repos/AlbertaGameJam2024/ABGJ
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50889
+49257
 Successfully changed project path to: D:/Repos/AlbertaGameJam2024/ABGJ
 D:/Repos/AlbertaGameJam2024/ABGJ
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Repos/AlbertaGameJam2024/ABGJ
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25448] Host "[IP] 192.168.2.167 [Port] 0 [Flags] 2 [Guid] 2702544787 [EditorId] 2702544787 [Version] 1048832 [Id] WindowsEditor(7,RyanPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22368] Host "[IP] 192.168.2.167 [Port] 0 [Flags] 2 [Guid] 1797337981 [EditorId] 1797337981 [Version] 1048832 [Id] WindowsEditor(7,RyanPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25448] Host "[IP] 192.168.2.167 [Port] 0 [Flags] 2 [Guid] 2702544787 [EditorId] 2702544787 [Version] 1048832 [Id] WindowsEditor(7,RyanPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22368] Host "[IP] 192.168.2.167 [Port] 0 [Flags] 2 [Guid] 1797337981 [EditorId] 1797337981 [Version] 1048832 [Id] WindowsEditor(7,RyanPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 17.13 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 14.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.27f1 (73effa14754f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014095 seconds.
-- Loaded All Assemblies, in  0.468 seconds
+Registered in 0.011821 seconds.
+- Loaded All Assemblies, in  0.310 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 673 ms
+Android Extension - Scanning For ADB Devices 637 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.948 seconds
-Domain Reload Profiling: 1412ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  0.911 seconds
+Domain Reload Profiling: 1218ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (171ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (155ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (97ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (948ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (912ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (902ms)
+		SetupLoadedEditorAssemblies (869ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (775ms)
+			InitializePlatformSupportModulesInManaged (744ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 1412ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.558 seconds
-Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.757 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,566 +130,226 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.523 seconds
-Domain Reload Profiling: 1078ms
-	BeginReloadAssembly (122ms)
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1324ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
+		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (361ms)
-		LoadAssemblies (268ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (536ms)
+		LoadAssemblies (395ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (129ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (523ms)
+	FinalizeReload (569ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (395ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 3.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4438 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (246.6 KB). Loaded Objects now: 4898.
+Memory consumption went from 165.9 MB to 165.6 MB.
+Total: 3.853900 ms (FindLiveObjects: 0.386800 ms CreateObjectMapping: 0.235300 ms MarkObjects: 2.999600 ms  DeleteObjects: 0.231400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1462772.588171 seconds.
+  path: Assets/Prefabs/ItemUI.prefab
+  artifactKey: Guid(24ba249002ed70e479c513bd115fd859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ItemUI.prefab using Guid(24ba249002ed70e479c513bd115fd859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50db71b324278989ab798d9259d10fba') in 0.046810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 4.065047 seconds.
+  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a3.png
+  artifactKey: Guid(fa127cea8d888d745885babebf7b9268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a3.png using Guid(fa127cea8d888d745885babebf7b9268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a753479f6a4ddd8858c4cba726a9fe8') in 0.040049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1741.593898 seconds.
+  path: Assets/Prefabs/Inventory.prefab
+  artifactKey: Guid(bea55b700a400b64390822c8985f5115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Inventory.prefab using Guid(bea55b700a400b64390822c8985f5115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35b353ea715422a6108cacbd86f6a98') in 0.018451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 1238.331046 seconds.
+  path: Assets/Prefabs/ItemUI.prefab
+  artifactKey: Guid(24ba249002ed70e479c513bd115fd859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ItemUI.prefab using Guid(24ba249002ed70e479c513bd115fd859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161d2a43414c1bc72142d8b22b3cc933') in 0.015857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 1.992194 seconds.
+  path: Assets/Prefabs/InputManager.prefab
+  artifactKey: Guid(2d3dcd9286f784b43801b0b9db47f6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/InputManager.prefab using Guid(2d3dcd9286f784b43801b0b9db47f6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cd517cce12501116ffa8b9e5469d08') in 0.002247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1079.919592 seconds.
+  path: Assets/Scripts/Inputs
+  artifactKey: Guid(1b8e9070abf1adc4ba15b665889b38ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inputs using Guid(1b8e9070abf1adc4ba15b665889b38ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1e8834ec9d09b7bb500b9408fa6cba') in 0.000487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.079414 seconds.
+  path: Assets/Scripts/Inputs/IPlayerControlsListener.cs
+  artifactKey: Guid(77e8bdf0712a2914cad62cc3f80e965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inputs/IPlayerControlsListener.cs using Guid(77e8bdf0712a2914cad62cc3f80e965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5944e919d7e1de17afa211e45818fc5') in 0.000399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.842016 seconds.
+  path: Assets/Scripts/Inputs/IMenuControlsListener.cs
+  artifactKey: Guid(d973ee6fdd5d88b4a9a809bef873b92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inputs/IMenuControlsListener.cs using Guid(d973ee6fdd5d88b4a9a809bef873b92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297db10d24c781a9df0b25a2bb97d9b0') in 0.000363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.651081 seconds.
+  path: Assets/Scripts/Inputs/IMenuControlsListener.cs
+  artifactKey: Guid(d973ee6fdd5d88b4a9a809bef873b92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inputs/IMenuControlsListener.cs using Guid(d973ee6fdd5d88b4a9a809bef873b92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06b2c5b749aee67c7c8dd712dff063f') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.179703 seconds.
+  path: Assets/Scripts/Inputs/IMenuControlsListener.cs
+  artifactKey: Guid(d973ee6fdd5d88b4a9a809bef873b92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inputs/IMenuControlsListener.cs using Guid(d973ee6fdd5d88b4a9a809bef873b92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ff73991df924cfc1c86a91aaf4b9b7') in 0.001425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.748513 seconds.
+  path: Assets/Scripts/Inputs/GameInputs.inputactions
+  artifactKey: Guid(a6201c8982389a7479e7b2c6f8baa09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inputs/GameInputs.inputactions using Guid(a6201c8982389a7479e7b2c6f8baa09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dc068e318aed3873343bde6d5f0b52') in 0.005966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 24.268085 seconds.
+  path: Assets/Scripts/SciptableObjects
+  artifactKey: Guid(4b103b926bc6bad4d9f5a5ba9f3c5864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SciptableObjects using Guid(4b103b926bc6bad4d9f5a5ba9f3c5864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb2aefa7582073b9ba5d4e2812ae044') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.763487 seconds.
+  path: Assets/Scripts/SciptableObjects/MenuInputChannelSO.cs
+  artifactKey: Guid(4e804146d3aa29141a5411ca8ab818dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SciptableObjects/MenuInputChannelSO.cs using Guid(4e804146d3aa29141a5411ca8ab818dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cd2e7b203d5c0d097b9857473f2df9') in 0.000575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 174.240426 seconds.
+  path: Assets/Scripts/SciptableObjects/MenuInputChannelSO.cs
+  artifactKey: Guid(4e804146d3aa29141a5411ca8ab818dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SciptableObjects/MenuInputChannelSO.cs using Guid(4e804146d3aa29141a5411ca8ab818dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8607da8a17a4dd49cac959abe33a2c') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.617 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1484ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (870ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (276ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4423 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (246.5 KB). Loaded Objects now: 4881.
-Memory consumption went from 161.7 MB to 161.4 MB.
-Total: 5.027500 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.238700 ms MarkObjects: 4.136700 ms  DeleteObjects: 0.199300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1296516.731520 seconds.
-  path: Assets/GameArt/PlaceHolder
-  artifactKey: Guid(3d1cc4380bb25f446bb0d86bb402ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder using Guid(3d1cc4380bb25f446bb0d86bb402ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc3dac63342c59c0055729822688775') in 0.002141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.046764 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version
-  artifactKey: Guid(690505ec8e3ccfd438e0cd9de5d2acd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version using Guid(690505ec8e3ccfd438e0cd9de5d2acd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5206e75f792afb82f020290d76d63b') in 0.000352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.642323 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection
-  artifactKey: Guid(3dac174cf172cab4ca31dac796ce5661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection using Guid(3dac174cf172cab4ca31dac796ce5661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea6d4ecb39f2a1a58b41160fb8c6bcc') in 0.000334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.767292 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme
-  artifactKey: Guid(5e186a42d80eeeb419284bf682504517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme using Guid(5e186a42d80eeeb419284bf682504517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c156d523406abe200ee854ada4a55229') in 0.000360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.903443 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites
-  artifactKey: Guid(1ec121515b2481749af8438c3e43442c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites using Guid(1ec121515b2481749af8438c3e43442c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d48665e90aec2b961cc0a7a94b6d917') in 0.000404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.015123 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets
-  artifactKey: Guid(84327b499793dfa4fbe7d493c6ba9c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets using Guid(84327b499793dfa4fbe7d493c6ba9c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae87726606c507300a65aefb0fb503e') in 0.000384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.126192 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets/Spritesheet_UI_Flat.png
-  artifactKey: Guid(469842ea86ecd87429520b0a71f0605d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets/Spritesheet_UI_Flat.png using Guid(469842ea86ecd87429520b0a71f0605d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9197208a32bf7961efce6ad5db24b7d8') in 0.052294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.067544 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets/Spritesheet_UI_Flat_Button_01.png
-  artifactKey: Guid(95c6f2147105fa245b01062a12c7e8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets/Spritesheet_UI_Flat_Button_01.png using Guid(95c6f2147105fa245b01062a12c7e8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e70ca6307a64250e3286c95e09d867') in 0.007717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.345237 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets/Spritesheet_UI_Flat_Button_02.png
-  artifactKey: Guid(573781394cdd37d41a1cbaf4acbe9f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets/Spritesheet_UI_Flat_Button_02.png using Guid(573781394cdd37d41a1cbaf4acbe9f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f8c817d5048d1bc4f41d1866187822') in 0.006300 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.162052 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets/Spritesheet_UI_Flat_Select_01.png
-  artifactKey: Guid(b6278b703a3e0a041af5556fea786a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Spritesheets/Spritesheet_UI_Flat_Select_01.png using Guid(b6278b703a3e0a041af5556fea786a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9089d21d456ea42687fb4363fbce48') in 0.006483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 711.901416 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Lite.png
-  artifactKey: Guid(d3bd03526d7848844881cfc1d4173195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Lite.png using Guid(d3bd03526d7848844881cfc1d4173195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e1a7ced089d395bc30ad8f417ed11a') in 0.008408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.364920 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Standard.png
-  artifactKey: Guid(85c8a996df334f34b910bd1c7e08a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Standard.png using Guid(85c8a996df334f34b910bd1c7e08a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70a62f6dd4778d64411002a1c227433') in 0.010837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.617864 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Standard.png
-  artifactKey: Guid(85c8a996df334f34b910bd1c7e08a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Standard.png using Guid(85c8a996df334f34b910bd1c7e08a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20759673339fa7febb1f4329613fe411') in 0.006854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 66.001491 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Standard.png
-  artifactKey: Guid(85c8a996df334f34b910bd1c7e08a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Standard.png using Guid(85c8a996df334f34b910bd1c7e08a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8e58da9898fa51da5d0f979f971666') in 0.006618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.464 seconds
-Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.840 seconds
-Domain Reload Profiling: 1302ms
-	BeginReloadAssembly (178ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (284ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (841ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (252ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.5 KB). Loaded Objects now: 4900.
-Memory consumption went from 159.3 MB to 159.1 MB.
-Total: 3.915600 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.410400 ms  DeleteObjects: 0.144200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.368 seconds
-Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.844 seconds
-Domain Reload Profiling: 1210ms
-	BeginReloadAssembly (139ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (230ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (845ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (275ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 3.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4417 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.5 KB). Loaded Objects now: 4904.
-Memory consumption went from 159.5 MB to 159.3 MB.
-Total: 3.201600 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.679500 ms  DeleteObjects: 0.158500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.381 seconds
-Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.884 seconds
-Domain Reload Profiling: 1261ms
-	BeginReloadAssembly (142ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (244ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (884ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (398ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (275ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4417 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.8 KB). Loaded Objects now: 4908.
-Memory consumption went from 159.5 MB to 159.3 MB.
-Total: 3.083800 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.161900 ms MarkObjects: 2.513500 ms  DeleteObjects: 0.161700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.374 seconds
-Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.853 seconds
-Domain Reload Profiling: 1225ms
-	BeginReloadAssembly (136ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (854ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (416ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (285ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4417 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.5 KB). Loaded Objects now: 4912.
-Memory consumption went from 159.6 MB to 159.4 MB.
-Total: 3.597600 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.176600 ms MarkObjects: 2.987200 ms  DeleteObjects: 0.159200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.380 seconds
-Refreshing native plugins compatible for Editor in 3.97 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.871 seconds
-Domain Reload Profiling: 1247ms
-	BeginReloadAssembly (134ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (238ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (872ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (400ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (274ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4417 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.6 KB). Loaded Objects now: 4916.
-Memory consumption went from 159.6 MB to 159.4 MB.
-Total: 3.131600 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.186100 ms MarkObjects: 2.491400 ms  DeleteObjects: 0.195000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.367 seconds
-Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.846 seconds
-Domain Reload Profiling: 1210ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (174ms)
-		LoadAssemblies (232ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (846ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (399ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (271ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4417 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.5 KB). Loaded Objects now: 4920.
-Memory consumption went from 159.6 MB to 159.4 MB.
-Total: 3.237800 ms (FindLiveObjects: 0.292500 ms CreateObjectMapping: 0.201700 ms MarkObjects: 2.583000 ms  DeleteObjects: 0.159900 ms)
+Unloading 4420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (221.1 KB). Loaded Objects now: 4910.
+Memory consumption went from 160.5 MB to 160.3 MB.
+Total: 3.642400 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.278200 ms MarkObjects: 2.857600 ms  DeleteObjects: 0.180600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -708,682 +368,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3000.391479 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Inward.png
-  artifactKey: Guid(a35b618ce81d96f4a838dc551676304b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Inward.png using Guid(a35b618ce81d96f4a838dc551676304b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79ca6faa51f6758685f585a8bd1574f') in 0.054976 seconds
+  Time since last request: 92.948077 seconds.
+  path: Assets/Scripts/SciptableObjects/MenuControlChannelSO.asset
+  artifactKey: Guid(fd6b52c0e8e4dd549a58f0afbb3efe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SciptableObjects/MenuControlChannelSO.asset using Guid(fd6b52c0e8e4dd549a58f0afbb3efe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127ae0f62f89c3341f27b05e272b3900') in 0.010659 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_01.png
-  artifactKey: Guid(13f440f5a687f644c84d668cd1a438cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_01.png using Guid(13f440f5a687f644c84d668cd1a438cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bc8fc57942577197b72aacbe2a8b8b') in 0.010030 seconds
+  Time since last request: 1918.256651 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.000946 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_02.png
-  artifactKey: Guid(b9e4651a4c2221c4d93cb89d8e137863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_02.png using Guid(b9e4651a4c2221c4d93cb89d8e137863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8663e1ad8b5147170823ec9ea0c068be') in 0.014128 seconds
+  Time since last request: 705.492142 seconds.
+  path: Assets/Prefabs/Inventory.prefab
+  artifactKey: Guid(bea55b700a400b64390822c8985f5115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Inventory.prefab using Guid(bea55b700a400b64390822c8985f5115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e6e8642f56a12da2cbfa92f9ff3f24') in 0.057279 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 306
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_Handle_01.png
-  artifactKey: Guid(8656a4987c361914fb3d0405bee29048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_Handle_01.png using Guid(8656a4987c361914fb3d0405bee29048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e73486decf92d76895dc01ef00b0a88') in 0.013842 seconds
+  Time since last request: 0.660316 seconds.
+  path: Assets/Prefabs/ItemUI.prefab
+  artifactKey: Guid(24ba249002ed70e479c513bd115fd859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ItemUI.prefab using Guid(24ba249002ed70e479c513bd115fd859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4b173f77b1a3ae11afafdd242d381e') in 0.018022 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 7.077336 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Horizontal.png
-  artifactKey: Guid(58dab733ce9c4524d8008aa22b429e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_02_Horizontal.png using Guid(58dab733ce9c4524d8008aa22b429e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8395b469cca68e7314054c88e923fa') in 0.008802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.019152 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_01_Lite.png
-  artifactKey: Guid(51525c6b007db6144a9e49e7249fab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_01_Lite.png using Guid(51525c6b007db6144a9e49e7249fab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e779bb5f3b20dd63c98928d1b024737') in 0.008117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_01_Inward.png
-  artifactKey: Guid(88cc4ceec3e92a94f8889bb5ce611663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_01_Inward.png using Guid(88cc4ceec3e92a94f8889bb5ce611663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d0d13a1b1283ac0162f0dd43507023') in 0.017168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.240748 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Filler_05.png
-  artifactKey: Guid(4a06d1ad55cf7364e8174997396ef82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Filler_05.png using Guid(4a06d1ad55cf7364e8174997396ef82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c4f7111f0084c8bef61b6603fc99db') in 0.014057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.037759 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Fillbar_02_Flat.png
-  artifactKey: Guid(7fe361389c5230541961bad1f259112b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Fillbar_02_Flat.png using Guid(7fe361389c5230541961bad1f259112b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c881cee2e5eaa29909fada5657b6d5') in 0.006383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.031665 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Fillbar_01_Hollow.png
-  artifactKey: Guid(7a765ad6359ffcc4b8508dd3bed02b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Fillbar_01_Hollow.png using Guid(7a765ad6359ffcc4b8508dd3bed02b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e353c1c3531453a60df6382aaca143') in 0.006944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.205332 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Fillbar_01_Block.png
-  artifactKey: Guid(6de22676cea944345892d87789d9763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Fillbar_01_Block.png using Guid(6de22676cea944345892d87789d9763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b62d6982d97e3a5c412a757b960ec6') in 0.008140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.017695 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Cross_Medium.png
-  artifactKey: Guid(05e5909a069a637409c196b1dd309476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Cross_Medium.png using Guid(05e5909a069a637409c196b1dd309476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7401b4bdbcae5a84f43644249d72bd') in 0.012880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.016073 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Checkmark_Small.png
-  artifactKey: Guid(575e773ac057fca468219c0d6fa08d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Checkmark_Small.png using Guid(575e773ac057fca468219c0d6fa08d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fd7b114ac19f8fa15a42b2dbbd6957') in 0.015144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 13.642217 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_Handle_03.png
-  artifactKey: Guid(180cc735709b9764484d6db526b96ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Scrollbar_Handle_03.png using Guid(180cc735709b9764484d6db526b96ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977a44a0f4cf1a866df77394461b15e0') in 0.009863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 19.726865 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_01a1.png
-  artifactKey: Guid(9d1fd71848ac6fa4fa3b3bf096367289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_01a1.png using Guid(9d1fd71848ac6fa4fa3b3bf096367289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b1c166c1c43d259173eaf4da6ed878') in 0.009580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.064050 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_01a3.png
-  artifactKey: Guid(13afd7cce1a75fb4c91052ed0e4ad28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_01a3.png using Guid(13afd7cce1a75fb4c91052ed0e4ad28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e936ea68af5569d59d723a8af1fe72d') in 0.008436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.023383 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_02a1.png
-  artifactKey: Guid(11c78cfdd2c6b744283522dcab6d276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_02a1.png using Guid(11c78cfdd2c6b744283522dcab6d276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f576bcd830605b89f629a5b3e17e4771') in 0.006334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.367829 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_02a3.png
-  artifactKey: Guid(53e89ba419e30a2469938b15624458fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_02a3.png using Guid(53e89ba419e30a2469938b15624458fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670bb4d312114576bd204f6d4146cbc6') in 0.011149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.027352 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slider.png
-  artifactKey: Guid(eb1bcf5006ae832469eee3ad8f83a9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slider.png using Guid(eb1bcf5006ae832469eee3ad8f83a9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d739a0fba4dadd8b6ea5cc941c81f6') in 0.007734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.028802 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Available.png
-  artifactKey: Guid(0b983e6ea79249149843a8c5513f8128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Available.png using Guid(0b983e6ea79249149843a8c5513f8128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce1633645fc03ad2364c8f8eb7b2912') in 0.013301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.376 seconds
-Refreshing native plugins compatible for Editor in 4.35 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.838 seconds
-Domain Reload Profiling: 1212ms
-	BeginReloadAssembly (139ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (174ms)
-		LoadAssemblies (232ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (838ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (400ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (271ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.4 KB). Loaded Objects now: 4926.
-Memory consumption went from 159.4 MB to 159.1 MB.
-Total: 3.317400 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.167400 ms MarkObjects: 2.664600 ms  DeleteObjects: 0.164100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 159.223714 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Textfield_02.png
-  artifactKey: Guid(fbbf71b2065972d4f9bd9ba01896f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Textfield_02.png using Guid(fbbf71b2065972d4f9bd9ba01896f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd155e99fd3ab2fe0e6d3ee1b4e6d4d') in 0.044085 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.362 seconds
-Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.853 seconds
-Domain Reload Profiling: 1213ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (226ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (854ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (408ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (283ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.6 KB). Loaded Objects now: 4932.
-Memory consumption went from 159.4 MB to 159.2 MB.
-Total: 3.473700 ms (FindLiveObjects: 0.299800 ms CreateObjectMapping: 0.199100 ms MarkObjects: 2.823200 ms  DeleteObjects: 0.151000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.399 seconds
-Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.945 seconds
-Domain Reload Profiling: 1341ms
-	BeginReloadAssembly (138ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (201ms)
-		LoadAssemblies (261ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (945ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (431ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (298ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4417 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (217.6 KB). Loaded Objects now: 4936.
-Memory consumption went from 159.6 MB to 159.4 MB.
-Total: 6.247700 ms (FindLiveObjects: 0.355100 ms CreateObjectMapping: 0.320800 ms MarkObjects: 5.329700 ms  DeleteObjects: 0.241300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8624.827882 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Aseprite/UI_Animation_Flat.aseprite
-  artifactKey: Guid(e403f8bfec466bc49854e0ebde23574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Aseprite/UI_Animation_Flat.aseprite using Guid(e403f8bfec466bc49854e0ebde23574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd663261bb8b2824bd6ad51160fd36d') in 0.211324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 71.064880 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_01_Downward.png
-  artifactKey: Guid(e09271f1650acae42810737859bcae5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_01_Downward.png using Guid(e09271f1650acae42810737859bcae5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1030e944773ed6fb67d36b3d5d871e5') in 0.006505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.010449 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_01_Upward.png
-  artifactKey: Guid(9775d0a4c8de3c246adb97c0ccdbeb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_01_Upward.png using Guid(9775d0a4c8de3c246adb97c0ccdbeb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a3c3b1ba8ffc8bc6436baf97ecab90') in 0.007438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a2.png
-  artifactKey: Guid(2e5502ea1998e0344b927d712c3b1097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a2.png using Guid(2e5502ea1998e0344b927d712c3b1097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212b2a7749e18d37e2621eb81407b115') in 0.006641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_02_Upward.png
-  artifactKey: Guid(74fbd763faaa2a749bc98e33b810f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_02_Upward.png using Guid(74fbd763faaa2a749bc98e33b810f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a961c8b0918487b830c23474a8c3119') in 0.007112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.009142 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a4.png
-  artifactKey: Guid(f6b0f87bfcfcdaa4aab759d52fefb0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_01a4.png using Guid(f6b0f87bfcfcdaa4aab759d52fefb0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9c08c53704c74ce51d261a63180b03') in 0.012350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_02a3.png
-  artifactKey: Guid(28a31ddea07ef2c4a877ac7dd6563323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_02a3.png using Guid(28a31ddea07ef2c4a877ac7dd6563323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb5771e85cc2b8547b393e54c73dbb7') in 0.010447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a4.png
-  artifactKey: Guid(97e264e70625c2241ad177e8b9ee6029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a4.png using Guid(97e264e70625c2241ad177e8b9ee6029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b31212f7d4e2197c27323c25b28712c') in 0.013398 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a3.png
-  artifactKey: Guid(7d3fc500e3107f54189590ad6b53be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a3.png using Guid(7d3fc500e3107f54189590ad6b53be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606937cbc2f1e0c551282253bd00e6f1') in 0.007441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_01a3.png
-  artifactKey: Guid(dc19559b5b820c74dbada3825a284716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_01a3.png using Guid(dc19559b5b820c74dbada3825a284716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d3ee82665b7952236a07bc8073fa4f') in 0.009116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a2.png
-  artifactKey: Guid(0c3d59dc66009834d9f6a8d1219aae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a2.png using Guid(0c3d59dc66009834d9f6a8d1219aae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d59075035062f9fe7253acb69697b36') in 0.009118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_02a3.png
-  artifactKey: Guid(a0184eb9de6a5cd4580831980372e990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_02a3.png using Guid(a0184eb9de6a5cd4580831980372e990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86e2bea31239d4be9daf361e61a701d') in 0.008346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a2.png
-  artifactKey: Guid(7b3ddbbcdc98a8b4ab96b13ffd57341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a2.png using Guid(7b3ddbbcdc98a8b4ab96b13ffd57341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8229c4080380abdaf1d758d94558b18f') in 0.007472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_02a2.png
-  artifactKey: Guid(5aa439a077281d449bb10b316aafd49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_02a2.png using Guid(5aa439a077281d449bb10b316aafd49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7ff42b65fc8763f3da3f47bc77f985') in 0.008321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Release_01a2.png
-  artifactKey: Guid(4999ac759d52ddc4aa41d19b2685189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Release_01a2.png using Guid(4999ac759d52ddc4aa41d19b2685189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f95bbac38956142dd342ae6bcbe4533') in 0.007469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Release_02a4.png
-  artifactKey: Guid(546906e12afb8664ebd81140c4619e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Release_02a4.png using Guid(546906e12afb8664ebd81140c4619e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4b53a03e2bd2f45625f0846d6d96a5') in 0.013075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_01a4.png
-  artifactKey: Guid(0f93682091a99a643a4f15b281bb1e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_01a4.png using Guid(0f93682091a99a643a4f15b281bb1e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8c727f28e63ec5094ac901418151ab') in 0.006533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Press_01a4.png
-  artifactKey: Guid(96a04746c2f7e4148a19b48ba5a10f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Press_01a4.png using Guid(96a04746c2f7e4148a19b48ba5a10f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19c06380fb54e7a6e85be083386fcb4') in 0.010968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a3.png
-  artifactKey: Guid(ef6d47d6c9d9cc44e833bab25ee294e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a3.png using Guid(ef6d47d6c9d9cc44e833bab25ee294e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d269fba29334e62420d923265ccfda2') in 0.008720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_02a4.png
-  artifactKey: Guid(ab9dd55aa7a75714fab8a0c61f062f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_02a4.png using Guid(ab9dd55aa7a75714fab8a0c61f062f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2854d09afcb2124b09a043b3d474c5e') in 0.009209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Press_01a1.png
-  artifactKey: Guid(bd0018ea36620c94e9deb2e4a701edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Press_01a1.png using Guid(bd0018ea36620c94e9deb2e4a701edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad1294259704b845cf6c15cce7e7dc6') in 0.009090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_01a2.png
-  artifactKey: Guid(f216dbf2d4a75d44e93d0557de33a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_01a2.png using Guid(f216dbf2d4a75d44e93d0557de33a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a8a00014cf0b547ded381820e8c510') in 0.008877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a1.png
-  artifactKey: Guid(43ea2dd228f942f4bb7fe8f367809464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a1.png using Guid(43ea2dd228f942f4bb7fe8f367809464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e961985e7ed16b7738ac330ccb9cf1') in 0.010712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a4.png
-  artifactKey: Guid(d7a08480bbb977e458710a8be712a230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Press_01a4.png using Guid(d7a08480bbb977e458710a8be712a230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d02e0f588d5bb221269b74ddf23acfe') in 0.006412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_02a1.png
-  artifactKey: Guid(99d08bdc9d1d6ee40b925081d9176619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_02a1.png using Guid(99d08bdc9d1d6ee40b925081d9176619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3d69f6fdd395bd94e09624ee1560c0') in 0.009272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_01a3.png
-  artifactKey: Guid(2f5bbfec28d538149870bb70eb0065b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_01a3.png using Guid(2f5bbfec28d538149870bb70eb0065b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862f059f6eecd6732308738574247b6b') in 0.008059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_01a2.png
-  artifactKey: Guid(b39f4699da1cb054dbb89c7fb687db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Lock_01a2.png using Guid(b39f4699da1cb054dbb89c7fb687db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189cc8d9e66251ff3d15d4bcec075210') in 0.009017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Press_01a2.png
-  artifactKey: Guid(5e138448967c6aa4799aab91b0edaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Press_01a2.png using Guid(5e138448967c6aa4799aab91b0edaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad2f1896b1a4b1c12a9cf99cf91510d') in 0.010485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Selected.png
-  artifactKey: Guid(4472dbea660853a4bb50ed91f48b0ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Selected.png using Guid(4472dbea660853a4bb50ed91f48b0ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b656315bb42874399e2da432eb1972cd') in 0.008554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Unavailable.png
-  artifactKey: Guid(e2c2e3c76f9e6e741806c4d2ff5cc4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Slot_01_Unavailable.png using Guid(e2c2e3c76f9e6e741806c4d2ff5cc4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c62099b5f7851144a049bed548af97') in 0.006756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Checkmark_Large.png
-  artifactKey: Guid(e21628f7b511d2041bc68dc5fbb571e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Checkmark_Large.png using Guid(e21628f7b511d2041bc68dc5fbb571e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe6ca3c05299c82788a19b30ecf0bf2') in 0.007688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a2.png
-  artifactKey: Guid(14f06eae98d42434587f0f2ba0abe265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a2.png using Guid(14f06eae98d42434587f0f2ba0abe265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b998152624c966aab1f506214ca08107') in 0.010354 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a1.png
-  artifactKey: Guid(053469e54c2ed7f40a45998d304af4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_02a1.png using Guid(053469e54c2ed7f40a45998d304af4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105ea541cda4822b95b7681cfd4d33d4') in 0.006898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_02a2.png
-  artifactKey: Guid(27290d556cf161f4fb89013cf5e02edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Lock_02a2.png using Guid(27290d556cf161f4fb89013cf5e02edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255fb2b26495ded8aa4e83edf8959e33') in 0.007220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_02a2.png
-  artifactKey: Guid(02474261d241aa24daa39c9d71981431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Small_Release_02a2.png using Guid(02474261d241aa24daa39c9d71981431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba79b70dc86158af92c800aaae5bf4') in 0.011620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a3.png
-  artifactKey: Guid(2f1e829d7e19b9541b77a596aeba098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Large_Release_01a3.png using Guid(2f1e829d7e19b9541b77a596aeba098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3533c0f0bff3aa29bfed6346abab5b0f') in 0.008435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_02_Downward.png
-  artifactKey: Guid(16083253408e93448be7a0c3b462bc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Banner_02_Downward.png using Guid(16083253408e93448be7a0c3b462bc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cb9aeb53aa51f16bf394a65be26698') in 0.011133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_02a1.png
-  artifactKey: Guid(917dd4f6c676dd04c88051743d45803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameArt/PlaceHolder/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Button_Medium_Lock_02a1.png using Guid(917dd4f6c676dd04c88051743d45803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f03ea0a94a1fc9083f1d1b1bab59ce') in 0.007261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 23

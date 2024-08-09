@@ -7,6 +7,7 @@ public class InputManager : Singleton<InputManager>
 {
     #region Input Objects
     [SerializeField] private PlayerInputChannelSO playerInputsSO;
+    [SerializeField] private MenuInputChannelSO menuInputsSO;
     #endregion
     
     #region InputTypes and Actions
@@ -32,6 +33,8 @@ public class InputManager : Singleton<InputManager>
             _gameInput.PlayerInputs.Attack.performed += (ctx) => playerInputsSO.HandleAttack();
             //Add player Inputs to the action mapping.
             _actionMaps.Add(GameInputType.PlayerControl, _gameInput.PlayerInputs);
+            // MenuControls.
+            _gameInput.MenuInputs.Open.performed += (ctx) => menuInputsSO.HandleOpenMenu();
         }
         _gameInput.Enable();
     }
